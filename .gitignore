@@ -1,0 +1,11 @@
+# Runtime database (created by bin/install.php)
+site/db/*.sqlite
+site/db/*.sqlite-*
+site/db/*.db
+
+# Preview harness dependencies (PHP-WASM, sandbox only)
+tools/node_modules/
+
+# Editor / OS noise
+.DS_Store
+*.log

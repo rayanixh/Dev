@@ -1,0 +1,4 @@
+# Defence in depth: if a host ever points the document root at site/ instead of
+# site/public/, block the application, database and tooling folders.
+RedirectMatch 404 ^/(app|db|bin|tests)/.*$
+RedirectMatch 404 ^/.*\.(sqlite|sql|log)$

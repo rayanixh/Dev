@@ -1,0 +1,13 @@
+{
+  "name": "pixeltopup-preview",
+  "private": true,
+  "type": "module",
+  "description": "Preview harness only: runs the PHP site under PHP-WASM when no native PHP is installed.",
+  "scripts": {
+    "preview": "node preview.mjs"
+  },
+  "dependencies": {
+    "@php-wasm/node": "3.1.60",
+    "@php-wasm/universal": "3.1.60"
+  }
+}
