@@ -36,3 +36,7 @@ npx -y rea-agents@latest setup --client claude_code --yes             # apply
 Native binary analysis additionally needs a provider (Hopper, Ghidra via
 `GHIDRA_INSTALL_DIR`, or IDA). Android APK inspection needs caller-supplied JADX
 plus a full JDK. Static JavaScript/Electron analysis needs neither.
+
+Current install state, verified tooling, and engine setup:
+[docs/rea-setup.md](../../docs/rea-setup.md). Install the engines with
+`bash scripts/setup-rea-toolkit.sh`.
